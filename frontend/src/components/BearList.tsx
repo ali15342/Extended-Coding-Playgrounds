@@ -31,7 +31,6 @@ const BearList: React.FC = () => {
     void fetchData();
   }, []);
 
-  // Function to extract bear data from the wikitext
   const extractBears = async (wikitext: string): Promise<Bear[]> => {
     const speciesTables = wikitext.split('{{Species table/end}}');
     const bears: Bear[] = [];
