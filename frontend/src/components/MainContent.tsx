@@ -68,7 +68,7 @@ const MainContent: React.FC = () => (
         from farms or country houses. They tend to live in relative isolation,
         in caves, tents, or cottages.
       </p>
-      <img src="media/wild-bear.jpg" alt="A wild bear in its natural habitat" />
+      <img src="/media/wild-bear.jpg" alt="A wild bear in its natural habitat" />
       <p>
         Urban (gentrified) bears on the other hand have largely abandoned the
         old ways. They will hunt other urban creatures if necessary (including
@@ -79,7 +79,7 @@ const MainContent: React.FC = () => (
         ready meals, and microwave ovens.
       </p>
       <img
-        src="media/urban-bear.jpg"
+        src="/media/urban-bear.jpg"
         alt="A urban bear in its natural habitat"
       />
       <p>
@@ -99,8 +99,8 @@ const MainContent: React.FC = () => (
         about bear mating rituals, along with samples and quotes from experts.
       </p>
       <audio controls aria-label="Audio fact file about bears">
-        <source src="media/bear.mp3" type="audio/mp3" />
-        <source src="media/bear.ogg" type="audio/ogg" />
+        <source src="/media/bear.mp3" type="audio/mp3" />
+        <source src="/media/bear.ogg" type="audio/ogg" />
         <p>It looks like your browser doesn't support HTML5 audio players.</p>
       </audio>
 
